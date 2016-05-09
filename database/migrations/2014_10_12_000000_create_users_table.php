@@ -30,10 +30,10 @@ class CreateUsersTable extends Migration
             $table->dateTime('created_at')->nullable();
             $table->dateTime('updated_at')->nullable();
             
-            $table->foreign('departemen_id')
+/*            $table->foreign('departemen_id')
                   ->references('id')->on('departemen')
                   ->onDelete('cascade');
-            
+*/            
             $table->index('username');
             $table->index('password');
             $table->index('hapus');

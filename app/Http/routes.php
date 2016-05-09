@@ -63,3 +63,9 @@ Route::group(['middleware' => ['web','auth']], function ()  use ($ext){
     //for select2
     Route::post('module/selectdua',        ['as' => 'module.selectdua','uses' => 'ModuleController@selectdua']);
 });
+
+Route::get('About', 
+  ['as' => 'About', 'uses' => 'AboutController@create']);
+
+Route::get('Exp', 
+  ['as' => 'Exp', 'uses' => 'ExpController@create']);

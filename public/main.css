@@ -1,0 +1,116 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 23, 2016, 2:45:38 PM
+    Author     : teguh
+*/
+
+.form-group {
+	margin:10px auto;
+	max-width: 600px;
+	padding: 20px 12px 10px 20px;
+	font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+.form-group label{
+	margin:10px 0 3px 0;
+	padding:0px;
+	display:block;
+	font-weight: bold;
+}
+.form-group input[type=text], 
+.form-group input[type=date],
+.form-group input[type=datetime],
+.form-group input[type=number],
+.form-group input[type=search],
+.form-group input[type=time],
+.form-group input[type=url],
+.form-group input[type=email],
+.form-group input[type=selectRange],
+.form-group input[type=selectMonth],
+.form-group input[type=selectYear],
+.form-group input[type=radio],
+.form-group input[type=checkbox],
+textarea, 
+select{
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	border:1px solid #BEBEBE;
+	padding: 7px;
+	margin:0px;
+	-webkit-transition: all 0.30s ease-in-out;
+	-moz-transition: all 0.30s ease-in-out;
+	-ms-transition: all 0.30s ease-in-out;
+	-o-transition: all 0.30s ease-in-out;
+	outline: none;	
+}
+.form-group input[type=text]:focus, 
+.form-group input[type=date]:focus,
+.form-group input[type=datetime]:focus,
+.form-group input[type=number]:focus,
+.form-group input[type=search]:focus,
+.form-group input[type=time]:focus,
+.form-group input[type=url]:focus,
+.form-group input[type=email]:focus,
+.form-group input[type=selectRange]:focus,
+.form-group input[type=selectMonth]:focus,
+.form-group input[type=selectYear]:focus,
+.form-group input[type=radio]:focus,
+.form-group input[type=checkbox]:focus,
+.form-group textarea:focus, 
+.form-group select:focus{
+	-moz-box-shadow: 0 0 8px #88D5E9;
+	-webkit-box-shadow: 0 0 8px #88D5E9;
+	box-shadow: 0 0 8px #88D5E9;
+	border: 1px solid #88D5E9;
+}
+
+.form-group .field-textarea{
+	height: 100px;
+}
+.form-group input[type=submit], .form-group input[type=button]{
+	background: #4B99AD;
+	padding: 8px 15px 8px 15px;
+	border: none;
+	color: #fff;
+}
+.form-group input[type=submit]:hover, .form-group input[type=button]:hover{
+	background: #4691A4;
+	box-shadow:none;
+	-moz-box-shadow:none;
+	-webkit-box-shadow:none;
+}
+.form-group .required{
+	color:red;
+}
+.section-left {
+  float: left;
+  margin: auto;  
+  width: 49%;
+}
+.section-right {
+  float: right;
+  margin: auto;  
+  width: 49%;
+}
+.text-bebas{
+    font: 13px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-weight: bold;
+}
+.text-width{
+    width:400px;
+}
+.section-label {
+  float: left;
+  margin: auto;  
+  width: 20%;
+}
+.section-input {
+  float: right;
+  margin: auto;  
+  width: 78%;
+  resize:none;
+}
